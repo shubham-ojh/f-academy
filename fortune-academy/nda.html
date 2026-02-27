@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NDA Special Wing – Fortune Academy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="Attached_image.png" alt="Fortune Academy" class="nav-logo"> Fortune Academy
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="results.html">Results</a></li>
+      <li><a href="nda.html">NDA Special Wing</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>NDA Special Wing</h1>
+      <p class="hero-sub">Dedicated preparation for NDA/NA entrance – written exam and SSB guidance.</p>
+    </div>
+  </header>
+
+  <section class="courses">
+    <h2 class="section-title">What We Offer</h2>
+    <p class="section-subtitle">A complete ecosystem for defence aspirants.</p>
+    <div class="courses-grid">
+      <div class="course-card">
+        <span class="tag">Academics</span>
+        <h3>Mathematics &amp; GAT</h3>
+        <p>Topic-wise coverage, short tricks, previous year questions and full-length mock tests.</p>
+      </div>
+      <div class="course-card">
+        <span class="tag">SSB</span>
+        <h3>Interview &amp; Personality</h3>
+        <p>Group tasks, personal interview practice, psychology tests and communication skills.</p>
+      </div>
+      <div class="course-card">
+        <span class="tag">Support</span>
+        <h3>Mentorship &amp; Fitness</h3>
+        <p>Guidance from ex‑NDA mentors with focus on routines, discipline and fitness planning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faculty">
+    <h2 class="section-title">NDA Mentors</h2>
+    <p class="section-subtitle">Learn from those who know the journey.</p>
+    <div class="faculty-grid">
+      <div class="faculty-card">
+        <div class="avatar">A.P</div>
+        <h3>Vinod kumar</h3>
+        <p class="qual">Ex-NDA · 12+ Years</p>
+        <p>Specialises in NDA strategy, discipline building and SSB orientation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© Fortune Academy. NDA Special Wing.</p>
+    <p style="margin-top: 0.5rem;"><a href="contact.html">Contact Us</a></p>
+  </footer>
+
+  <div class="sticky-cta">
+    <a href="tel:+919876543210" class="call"><span class="icon">📞</span> <span>Call Now</span></a>
+    <a href="https://wa.me/919876543210" class="whatsapp" target="_blank" rel="noopener"><span class="icon">💬</span> <span>WhatsApp</span></a>
+  </div>
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('nav-toggle');
+      var links = document.getElementById('nav-links');
+      if (toggle && links) {
+        toggle.addEventListener('click', function() {
+          links.classList.toggle('open');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
+
